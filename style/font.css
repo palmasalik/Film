@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../fonts/Comfortaa/Comfortaa-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../fonts/Comfortaa/Comfortaa-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../icon/webfonts/fa-brands-400.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../icon/webfonts/fa-duotone-900.woff2);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../icon/webfonts/fa-light-300.woff2);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../icon/webfonts/fa-regular-400.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../icon/webfonts/fa-solid-900.woff2);
+    font-weight: 900;
+}
+
+.fal {
+    font-family: 'FontAwesome';
+    font-weight: 300;
+}
+
+.fab {
+    font-family: 'FontAwesome';
+    font-weight: 400;
+}
+
+.far {
+    font-family: 'FontAwesome';
+    font-weight: 400;
+}
+
+.fas {
+    font-family: 'FontAwesome';
+    font-weight: 900;
+}
+
+.fad {
+    font-family: 'FontAwesome';
+    font-weight: 900;
+}
+
+.icon_film::before {
+    content: '\f008';
+    color: white;
+    font-size: 50px;
+    font-style: normal;
+}
+
+.fa-play {
+    position: relative;
+    font-size: 45px;
+}
+
+.fa-play::before {
+    content: '\f04b';
+    position: absolute;
+    color: white;
+    font-style: normal;
+    font-size: 26px;
+    left: 45%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa-play::after {
+    content: '\10f04b';
+    color: rgba(255, 255, 255, 0.5);
+    font-style: normal;
+}
